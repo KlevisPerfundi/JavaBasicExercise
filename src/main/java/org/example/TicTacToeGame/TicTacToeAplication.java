@@ -3,15 +3,16 @@ package org.example.TicTacToeGame;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static org.example.TicTacToeGame.Exercise5.board;
-import static org.example.TicTacToeGame.Exercise5.figure;
+import static org.example.TicTacToeGame.TicTacToe.board;
+import static org.example.TicTacToeGame.TicTacToe.figure;
 
 
-public class Main {
+public class TicTacToeAplication {
+
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
 
-        Exercise5 exercise5 = new Exercise5();
+        TicTacToe exercise5 = new TicTacToe();
        figure="X";
         board =new String[9];
         String winner= null;

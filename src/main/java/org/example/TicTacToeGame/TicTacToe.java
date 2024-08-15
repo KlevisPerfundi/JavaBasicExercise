@@ -3,7 +3,7 @@ package org.example.TicTacToeGame;
 
 import java.util.Arrays;
 
-public class Exercise5 {
+public class TicTacToe {
 
 
     static String[] board;
